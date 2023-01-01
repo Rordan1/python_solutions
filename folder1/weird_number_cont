@@ -5,8 +5,11 @@ import re
 import sys
 
 def WeirdNumber():
-    n = int(input().strip())
+    #n = int(input("input a number"))
         
+    n = random.randint(1,100)
+    print(n)
+
     if n % 2 == 1:
         print ("Weird")
         
