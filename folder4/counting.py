@@ -1,9 +1,9 @@
 if __name__ == '__main__':
     n = int(input())
 
-
 def counting():
-    for i in range(0, n):
-        print(i + 1)
+    numbers = [i + 1 for i in range(0, n)]
+    return numbers
 
-    counting(3)
+result = counting()
+print(result)
